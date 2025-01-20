@@ -64,9 +64,6 @@ ol{
     color: rgb(92, 85, 85);
     text-decoration: none;
 }
-.port {
-    /* background-image: url(WhatsApp\ Image\ 2025-01-15\ at\ 15.34.39.jpeg); */
-}
  .container{ 
     width: 60%;
     height: 470px;
@@ -108,7 +105,6 @@ ol{
 
 .home{
     position: absolute;
-    bottom: ;
     top: 87%;
     width: 270px;
     /* background: orange; */
@@ -402,11 +398,22 @@ inherits: false;
     /* flex-wrap: wrap; */
 }
 .kop{
-    display: flex;
+    /* display: flex; */
     flex-direction: column;
     gap: 100px;
-    justify-content: space-around;
+    /* justify-content: space-around; */
+    /* justify-content: center; */
+    /* text-align: center; */
     flex-wrap: wrap;
+}
+.fers{
+    /* display: flex; */
+ text-align: center;
+}
+.ferss{
+    /* display: flex; */
+    /* justify-content: center; */
+    text-align: center;
 }
 
 
@@ -540,7 +547,6 @@ ul{
 }
 .home{
     position: absolute;
-    bottom: ;
     top: 83%;
     width: 270px;
     /* background: orange; */
@@ -745,8 +751,8 @@ ul{
 
 
  .hg{
-    height: 199vh;
-    background-color: white;
+    height: 100vh;
+    background-color: rgb(128, 10, 10);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -761,9 +767,16 @@ ul{
     right: 50px;
 }
 
-.kop{
+/* .kop{
    position: relative;
    right: 50px;
+} */
+
+.fers{
+    text-align: center;
+}
+.ferss{
+    text-align: center;
 }
 
 
